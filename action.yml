@@ -1,0 +1,10 @@
+name: 'Hello World Action'
+description: 'A simple action that prints Hello, World!'
+inputs:
+  who-to-greet:
+    description: 'Who to greet'
+    required: false
+    default: 'World'
+runs:
+  using: 'node12'
+  main: 'index.js'
