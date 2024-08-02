@@ -1,6 +1,9 @@
 name: CoderCo Custom Action
 description: Greet someone and record the time
 author: GitHub Actions
+branding:
+  icon: arrow-right
+  color: blue
 
 # Define your inputs here.
 inputs:
