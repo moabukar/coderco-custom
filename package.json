@@ -1,15 +1,12 @@
 {
-  "name": "coderco-custom",
+  "name": "hello-world-action",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple GitHub Action to print Hello, World!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@actions/core": "^1.10.1"
+    "@actions/core": "^1.2.6"
   }
 }
